@@ -1,0 +1,27 @@
+{
+    "name": "embark-theme-vscode",
+    "displayName": "Embark Theme",
+    "description": "My port of embark-theme to vscode",
+    "publisher": "pavalos6401",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/pavalos6401/embark-theme-vscode"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Embark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/embark-theme-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icon.png"
+}
